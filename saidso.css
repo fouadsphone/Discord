@@ -1,0 +1,162 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-weight: bolder;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+body{
+    background-color: #EDEAE0;
+    position: relative;
+color: black;
+
+overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content:space-between;
+  background-color: #EDEAE0;
+}
+nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+
+  padding: 1em 0;
+}
+  nav  * {
+      text-decoration:none;
+    color: black;
+    
+    font-family: cursive; 
+
+  }
+  nav *:hover,nav *:focus{
+    color: brown;
+    background: #CC9966;
+  }
+  ul{
+    list-style-type: none;
+  }  
+  .infinity2{
+    margin: auto auto;
+    position: relative;
+    width: 250px;
+    height: 250px;
+  }
+    .left{
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -1em;
+      transform: rotate(-45deg);
+      transform-origin: top left;
+      width: 55%;
+      height: 55%;
+      border: 2em solid black;
+      border-radius: 50px 50px 0 50px;
+    }
+    .right{
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -1em;
+      transform: rotate(45deg);
+      transform-origin: top right;
+      width: 55%;
+      height: 55%;
+      border: 2em solid brown;;
+      border-radius: 50px 50px 50px 0;
+    }
+  
+  .header{    
+    display: flex;
+    background: burlywood;
+    width: 239px;
+    width: 100%;
+    justify-content:center;
+    flex-wrap: wrap;
+    box-shadow: 0 -5px 3px -3px black, 0 5px 3px -3px black;
+
+}
+.Join{
+margin:auto auto;
+  height: 239px;
+  line-height: 239px;
+text-align: center;
+font-size: 2.7em;
+}
+
+
+.header>*:hover{
+  color: brown;
+}
+ .right:hover{
+  border-color: #EDEAE0;
+}
+.left:hover{
+border-color: #EDEAE0;
+}
+main{
+
+  width: 100%;
+}
+main h2{
+ text-align: center;
+ padding:1em  0 0 0 ;
+ font-size: 2em;
+ width: 8ch;
+ border-bottom: 3px solid black;
+ margin-left: auto;
+ margin-right: auto;
+}
+.container{
+  margin: 2em 4em;
+}
+.card{
+  width: 16em;
+  border: 0.5rem solid brown;
+  height: 25em;
+  box-shadow: 0.5rem 0.5rem black, -0.5rem -0.5rem #ccc;
+  background-image: linear-gradient(to top, burlywood 50%, brown 50%);
+  font-family: 'Courier New', monospace;}
+.card:hover{
+  border-color: burlywood;
+  background: brown;
+  background-image: linear-gradient(to bottom, burlywood 50%, brown 50%);
+  color:#EDEAE0;
+}
+.name{
+  text-align: center;
+  margin-top:0.7em;
+}
+.role, .title{
+  margin-left: 0.5em;
+  
+}
+
+.image{
+width: 100%;
+height: 12;
+border-bottom-left-radius: 5em ;
+border-bottom-right-radius: 5em;
+border-top-left-radius: 1em ;
+border-top-right-radius: 1em;
+
+}
